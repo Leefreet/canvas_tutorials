@@ -113,8 +113,8 @@ class Example extends Component {
         <Rnd
           size={{width, height}}
           position={{x, y}}
-          onDragStop={this.drag}
-          onResizeStop={this.resize}
+          onDrag={this.drag}
+          onResize={this.resize}
         >
           <div style={{position: "absolute", zIndex: 1000, border: this.init ? '1px dotted #000' : 'none', width, height}} />
         </Rnd>
